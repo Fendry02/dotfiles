@@ -30,11 +30,11 @@ export BG0=0xff1e1e2e
 export BG1=0x80404040
 export BG2=0x80505050
 
-export BATTERY_1=0xffa6da95
-export BATTERY_2=0xffeed49f
-export BATTERY_3=0xfff5a97f
-export BATTERY_4=0xffee99a0
-export BATTERY_5=0xffed8796
+export BATTERY_1=$WHITE
+export BATTERY_2=$WHITE
+export BATTERY_3=$YELLOW
+export BATTERY_4=$ORANGE
+export BATTERY_5=$RED
 
 # General bar colors
 export BAR_COLOR=$BG0
