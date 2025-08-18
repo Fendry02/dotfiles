@@ -17,11 +17,7 @@ volume_slider=(
 volume_icon=(
   click_script="$PLUGIN_DIR/volume_click.sh"
   icon=$VOLUME_80
-  icon.width=0
   icon.color=$GREY
-  icon.font="$FONT:Regular:14.0"
-  label.width=20
-  label.font="$FONT:Regular:14.0"
 )
 
 status_bracket=(
@@ -35,6 +31,6 @@ sketchybar --add slider volume right            \
            --add item volume_icon right         \
            --set volume_icon "${volume_icon[@]}"
 
-sketchybar --add bracket status wifi volume_icon \
-           --set status "${status_bracket[@]}"
+sketchybar --add bracket volume_icon
+           
 

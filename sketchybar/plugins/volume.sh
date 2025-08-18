@@ -1,7 +1,5 @@
 #!/bin/bash
 
-WIDTH=100
-
 volume_change() {
   source "$CONFIG_DIR/icons.sh"
   case $INFO in

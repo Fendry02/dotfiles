@@ -23,7 +23,7 @@ for m in $(aerospace list-monitors | awk '{print $1}'); do
       label.padding_right=0
       label.color=$GREY
       label.highlight_color=$WHITE
-      label.font="sketchybar-app-font:Regular:16.0"
+      label.font="$FONT:Regular:13.0"
       script="$PLUGIN_DIR/space.sh"
     )
 
